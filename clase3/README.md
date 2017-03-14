@@ -51,10 +51,10 @@ Algunas estructuras:
 
 **Compljidades**
 
-| Cabecera A | Cabecera B |
-| ---------- | ---------- |
-| Campo A0   | Campo B0   |
-| Campo A1   | Campo B1   |
+| Elemento | Cantidad | Precio |
+| :------- | :------: | -----: |
+| Item 1   | 15       | 150€   |
+| Item 2   | 3250     | 23,65€ |
 
 |       | |  []+  | |  +[]  | |  [+]  | |  []-  | |  -[]  | |  [-]  | |  [?]  |
 |:-----:| |:-----:| |:-----:| |:-----:| |:-----:| |:-----:| |:-----:| |:-----:|
