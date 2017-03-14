@@ -30,7 +30,7 @@ grande siempre se consumira los mas pequeños.
 
 2. *f1(x) = O(g1(x)), f2(x) = O(g2(x))*. Las constantes son también consumidas.
 
-**O(f1(x)*f2(x)) = O(g1(x)*g2(x))**
+**O(f1(x)xf2(x)) = O(g1(x)xg2(x))**
 
 3. Las constantes serán absorvidas por el peor de los casos.
 
@@ -50,6 +50,11 @@ Algunas estructuras:
 5. Deque (Mezcla entre pila y cola).
 
 **Compljidades**
+
+Cabecera A | Cabecera B
+-- | --
+Campo A0 | Campo B0
+Campo A1 | Campo B1
 
 |       | |  []+  | |  +[]  | |  [+]  | |  []-  | |  -[]  | |  [-]  | |  [?]  |
 |:-----:| |:-----:| |:-----:| |:-----:| |:-----:| |:-----:| |:-----:| |:-----:|
