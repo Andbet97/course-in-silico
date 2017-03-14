@@ -1,4 +1,4 @@
-##Clase 3
+## Clase 3
 
 La **complejidad** es el total de operaciones que realiza el algoritmo para llegar
 a un resultado.
@@ -21,7 +21,7 @@ En el peor de los casosla complejidad va a ser *n*n*.
 
 **O(n*n)**
 
-##Propiedades de los algoritmos.
+# Propiedades de los algoritmos.
 
 1. La complejidad siempre sera la más grande en el algoritmo , es decir, la mas
 grande siempre se consumira los mas pequeños.
@@ -36,7 +36,7 @@ grande siempre se consumira los mas pequeños.
 
 **f1(x) + C = O(g1(x))**
 
-##Estructuras de datos lineales
+# Estructuras de datos lineales
 
 Son usadas para guradar elementos del mismo tipo. En estas se puede hacer un recorrido
 lineal y se puede saber quien va antes o despues en la estructura.
@@ -50,6 +50,7 @@ Algunas estructuras:
 5. Deque (Mezcla entre pila y cola).
 
 **Compljidades**
+
 |       | |  []+  | |  +[]  | |  [+]  | |  []-  | |  -[]  | |  [-]  | |  [?]  |
 |:-----:| |:-----:| |:-----:| |:-----:| |:-----:| |:-----:| |:-----:| |:-----:|
 |Vector | | O(1)  | | O(n)  | | O(n)  | | O(1)  | | O(n)  | | O(n)  | | O(1)  |
