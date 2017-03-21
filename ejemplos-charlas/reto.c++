@@ -5,7 +5,7 @@
 using namespace std;
 
 char cierre (char c) {
-  chat t;
+  char t = 'n';
   if (c == '(')
     t = ')';
   if (c == '[')
@@ -20,10 +20,10 @@ int main() {
   ifstream fin("input.txt");
   ofstream fout("output.txt");
 
-  stack<char> s;
   int n;
   fin >> n;
   for (int i = 0; i <n; i++) {
+    stack<char> s;
     string c;
     fin >> c;
     for (int j = 0; j < c.size(); j++) {
@@ -33,7 +33,14 @@ int main() {
       }
       if (c[j] == cierre(s.top()))
         s.pop();
+      else
+        s.push(c[j]);
+    }
+    if (s.empty())
+      fout << "YES" << endl;
+    else {
+      fout << "NO" << endl;
     }
   }
-
+  return 0;
 }
